@@ -1,0 +1,45 @@
+.container {
+ text-align: center;
+ width: 70%;
+ margin: 0 auto;
+}
+
+.flex-blackjack-row-1,.flex-blackjack-row-2, .flex-blackjack-row-3{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   padding: 2px;
+}
+
+.flex-blackjack-row-1 {
+   background: url('https://t4.ftcdn.net/jpg/03/16/62/33/360_F_316623321_scdfUBfqPl2deibLYBkBMrWCgWtp7Odp.jpg') center;
+   color: white;   
+   border: 1px solid black;
+
+}
+
+.flex-blackjack-row-2 {
+   background: url('https://t4.ftcdn.net/jpg/03/16/62/33/360_F_316623321_scdfUBfqPl2deibLYBkBMrWCgWtp7Odp.jpg') center;
+   background-position:bottom;
+   border: 1px solid black;
+}
+
+.flex-blackjack-row-1 div {
+   border: 1px solid black;
+   flex: 1;
+   padding: 10px;
+   height: 350px;
+   text-align: center;
+}
+
+.flex-blackjack-row-1 img {
+   width:20%;
+   margin: 5px;
+}
+
+table, th, td {
+   padding: 5px;
+   border: 2px solid black;
+   text-align: center;
+}
+
